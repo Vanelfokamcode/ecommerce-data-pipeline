@@ -1,0 +1,98 @@
+================================================================================
+DATA QUALITY REPORT - SHOPIFY PRODUCTS
+Generated: 2025-12-12 20:42:38
+Total Products: 5,869
+================================================================================
+
+================================================================================
+1. PRICE ANALYSIS
+================================================================================
+
+Products with Price = 0 or missing: 4,008 (68.29%)
+
+Price Range:
+  - Minimum: $1.57
+  - Maximum: $59.90
+  - Average: $59.77
+  - Median: $59.90
+
+Products with Compare At Price (discount): 1,403 (23.91%)
+Average Discount Percentage: -inf%
+
+================================================================================
+2. VENDOR ANALYSIS
+================================================================================
+
+Unique Vendors: 1
+Products with no Vendor: 5,039 (85.86%)
+
+Top 10 Vendors by Product Count:
+  1. PERLYS: 830 products (14.14%)
+
+================================================================================
+3. CATEGORY ANALYSIS
+================================================================================
+
+Unique Product Categories: 1
+Products with no Category: 5,729 (97.61%)
+
+Top 10 Categories by Product Count:
+  1. Uncategorized: 140 products (2.39%)
+
+================================================================================
+4. INVENTORY & STATUS
+================================================================================
+
+Product Status Distribution:
+  - active: 800 products (13.63%)
+  - draft: 30 products (0.51%)
+
+Inventory Tracker Distribution:
+
+Products with Cost per item data: 0 (0.00%)
+
+================================================================================
+5. SEO & CONTENT ANALYSIS
+================================================================================
+
+Products missing SEO Title: 5,869 (100.00%)
+Products missing SEO Description: 5,869 (100.00%)
+Products with no Tags: 5,869 (100.00%)
+
+Average Title Length: 107 characters
+
+================================================================================
+6. OPTIONS/VARIANTS ANALYSIS
+================================================================================
+
+Products using options:
+  - Option1: 830 products (14.14%)
+  - Option2: 30 products (0.51%)
+  - Option3: 0 products (0.00%)
+
+Most common Option1 names:
+  - Title: 458 products
+  - Color: 342 products
+  - purity: 25 products
+  - size: 5 products
+
+Most common Option2 names:
+  - Color: 30 products
+
+================================================================================
+KEY FINDINGS & RECOMMENDATIONS
+================================================================================
+
+⚠️  4,008 products have invalid pricing - needs cleanup
+
+⚠️  100% products missing SEO descriptions - SEO optimization needed
+
+⚠️  100% products have no tags - consider adding tags for better organization
+
+⚠️  Only 0% products have cost data - profit analysis limited
+
+✅ 24% products have discount pricing - good for promotions
+
+================================================================================
+END OF REPORT
+================================================================================
