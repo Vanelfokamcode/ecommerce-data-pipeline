@@ -1,0 +1,66 @@
+================================================================================
+BUSINESS INTELLIGENCE REPORT - DAY 5
+================================================================================
+
+Generated for: 5,869 products
+
+================================================================================
+
+🎯 KEY BUSINESS INSIGHTS:
+
+================================================================================
+
+🏆 TOP PERFORMING VENDORS:
+
+⚠️  PRODUCTS REQUIRING IMMEDIATE ATTENTION:
+   - Selling at Loss: 0 products
+   - Invalid Pricing: 4,008 products
+   - Poor Content: 0 products
+
+💡 REVENUE OPTIMIZATION OPPORTUNITIES:
+   - Quick Wins (improve content): 1,030 products
+   - Discount Opportunities: 0 products
+   - High-Value Products: 0 products
+
+📊 CONTENT QUALITY IMPACT:
+   Budget      : 65.0/100 average content score
+   Mid-Range   : 58.9/100 average content score
+   Premium     : nan/100 average content score
+   Luxury      : nan/100 average content score
+
+🔧 PRODUCT COMPLEXITY INSIGHTS:
+   Simple    : 5,839 products, $59.80 avg price
+   Medium    :    30 products, $57.96 avg price
+   Complex   :     0 products, $nan avg price
+
+================================================================================
+
+📋 RECOMMENDED ACTIONS:
+================================================================================
+
+1. URGENT: Review 4,008 products with pricing issues
+
+2. QUICK WIN: Improve content for 1,030 mid-tier products (easy revenue boost)
+
+5. FOCUS: 0 high-value products are your profit drivers - protect them
+
+================================================================================
+
+✅ NEW COLUMNS ADDED:
+   - price_tier: Budget/Mid-Range/Premium/Luxury
+   - discount_strategy: Discount categorization
+   - profit_category: Margin classification
+   - inventory_health_score: 0-100 health metric
+   - inventory_status: Overall inventory health
+   - variant_complexity: Product variant complexity
+   - content_tier: Content quality tier
+   - vendor_tier: Vendor performance classification
+   - needs_pricing_review: Action flag
+   - needs_content_update: Action flag
+   - high_value_product: Premium product flag
+   - quick_win: Opportunity flag
+   - discount_opportunity: Strategy flag
+
+================================================================================
+END OF BUSINESS INTELLIGENCE REPORT
+================================================================================
