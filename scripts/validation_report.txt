@@ -1,0 +1,131 @@
+================================================================================
+DATA VALIDATION REPORT - DAY 6
+================================================================================
+
+Validation Date: 2025-12-14 12:35:46
+Total Products: 5,869
+Overall Quality Score: 82.4/100
+Status: NEEDS REVIEW ⚠️
+
+================================================================================
+
+VALIDATION RESULTS BY RULE:
+================================================================================
+
+[CRITICAL] Valid Price (> 0)
+   Violations: 0
+   Passed: 5,869
+
+[HIGH] Compare At Price Logic
+   Violations: 1,403
+   Passed: 4,466
+   Recommendation: Fix discount pricing logic - compare price must be higher than sale price
+   Sample failures:
+      1. Collier Perle de Culture - Tendance & Raffinement - Set Collier, Bracelet & Boucles - Perles & Zircon  PERLYS (Handle: collier-perle-de-culture-tendance-raffinement-set-collier-bracelet-boucles-perles-zircon-perlys)
+      2. nan (Handle: collier-perle-de-culture-tendance-raffinement-set-collier-bracelet-boucles-perles-zircon-perlys)
+      3. Bracelet Perle - Tendance Naturelle & Délicate - Perles dEau Douce Fines - Cuivre Plaqué Or 18k  PERLYS (Handle: bracelet-perle-tendance-naturelle-delicate-perles-deau-douce-fines-cuivre-plaque-or-18k-perlys)
+
+[HIGH] Not Selling at Loss
+   Violations: 0
+   Passed: 5,869
+
+[MEDIUM] Price Within Category Range
+   Violations: 4
+   Passed: 5,865
+   Recommendation: Review pricing - significantly different from category average
+   Sample failures:
+      1. Collier de Perles - Superposition Tendance - Collier Double Rang & Goutte dEau - Acier Titane  PERLYS (Handle: collier-de-perles-superposition-tendance-collier-double-rang-goutte-deau-acier-titane-perlys)
+      2. Collier Perle - Style Impérial - Design Rétro à Franges - Acier Titane & Perles  PERLYS (Handle: collier-perle-style-imperial-design-retro-a-franges-acier-titane-perles-perlys)
+      3. Bracelet Perle - Design Minimaliste - Pendentif Perle & Billes dAcier - Set Boucles dOreilles & Bracelet  PERLYS (Handle: bracelet-perle-design-minimaliste-pendentif-perle-billes-dacier-set-boucles-doreilles-bracelet-perlys)
+
+[CRITICAL] Title Length (10-200 chars)
+   Violations: 0
+   Passed: 5,869
+
+[HIGH] SEO Title Exists
+   Violations: 0
+   Passed: 5,869
+
+[MEDIUM] SEO Description Length (50-160)
+   Violations: 0
+   Passed: 5,869
+
+[HIGH] Premium Products Need Quality Content
+   Violations: 0
+   Passed: 0
+
+[CRITICAL] Published Products Have Valid Prices
+   Violations: 0
+   Passed: 0
+
+[MEDIUM] Active Products Have Inventory Tracking
+   Violations: 800
+   Passed: 0
+   Recommendation: Enable inventory tracking to prevent overselling
+   Sample failures:
+      1. Collier de Perles - Tissage Artisanal & Élégant - Perles ABS & Fines - Cuivre Plaqué Or 18k  PERLYS (Handle: collier-de-perles-tissage-artisanal-elegant-perles-abs-fines-cuivre-plaque-or-18k-perlys)
+      2. Collier de Perles - Tour de Cou Féerique - Pendentif Papillon & Perles - Cuivre Plaqué Or 18k  PERLYS (Handle: collier-de-perles-tour-de-cou-feerique-pendentif-papillon-perles-cuivre-plaque-or-18k-perlys)
+      3. Bracelet Perle - Tendance Naturelle & Délicate - Perles dEau Douce & Chaîne - Cuivre Plaqué Or 18k  PERLYS (Handle: bracelet-perle-tendance-naturelle-delicate-perles-deau-douce-chaine-cuivre-plaque-or-18k-perlys)
+
+[HIGH] Variants Have Option Names
+   Violations: 1,031
+   Passed: 830
+   Recommendation: Fix variant configuration - option names are required
+   Sample failures:
+      1. nan (Handle: collier-perle-de-culture-tendance-raffinement-set-collier-bracelet-boucles-perles-zircon-perlys)
+      2. nan (Handle: boucle-doreille-perle-de-culture-charme-retro-raffine-pendentif-goutte-deau-nacre-cuivre-plaque-or-18k-perlys)
+      3. nan (Handle: bracelet-perles-tissage-artisanal-tendance-pendentif-bille-noeud-cuivre-plaque-or-18k-perlys)
+
+[MEDIUM] Valid Vendor
+   Violations: 5,039
+   Passed: 830
+   Recommendation: Assign proper vendors for inventory management
+   Sample failures:
+      1. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+      2. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+      3. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+
+[HIGH] Premium Products Categorized
+   Violations: 0
+   Passed: 0
+
+[HIGH] High-Value Products Have Quality Content
+   Violations: 0
+   Passed: 0
+
+[MEDIUM] Pricing Review < 5% of Products
+   Violations: 4,008
+   Passed: 0
+   Recommendation: Too many products need pricing review (68.3%)
+   Sample failures:
+      1. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+      2. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+      3. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+
+[MEDIUM] Reasonable Discount Percentage
+   Violations: 0
+   Passed: 5,869
+
+[LOW] No Duplicate Titles
+   Violations: 5,041
+   Passed: 828
+   Recommendation: Review duplicate titles - may be data entry errors
+   Sample failures:
+      1. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+      2. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+      3. nan (Handle: collier-de-perle-amour-elegance-pendentif-coeur-perles-cuivre-plaque-or-18k-perlys)
+
+[LOW] Title Length Normal for Category
+   Violations: 2
+   Passed: 5,867
+   Recommendation: Review unusual title lengths for consistency
+   Sample failures:
+      1. Collier Perle de Culture - Parure Nuptiale & Scintillante - Design Élégant & Raffiné - Set Collier & Boucles dOreilles - Perles & Strass  PERLYS (Handle: collier-perle-de-culture-parure-nuptiale-scintillante-design-elegant-raffine-set-collier-boucles-doreilles-perles-strass-perlys)
+      2. Boucles doreilles Perles de culture - Design Minimaliste & Raffiné - Pendentif en Laiton & Perles - Argent 925 & Plaqué Or 18k  PERLYS (Handle: boucles-doreilles-perles-de-culture-design-minimaliste-raffine-pendentif-en-laiton-perles-argent-925-plaque-or-18k-perlys)
+
+================================================================================
+
+RECOMMENDATION:
+Data quality is acceptable but has issues. Review and fix high-priority violations before production.
+
+================================================================================
