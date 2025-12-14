@@ -1,0 +1,43 @@
+================================================================================
+MASTER DATA PIPELINE - EXECUTION REPORT
+================================================================================
+
+Execution Time: 2025-12-14 18:34:51
+Total Runtime: 1.86 seconds
+
+================================================================================
+
+INPUT/OUTPUT SUMMARY:
+  Input File: ../data/shopify_products.csv
+  Input Rows: 5,869
+  Output File: ../data/shopify_master_output.csv
+  Output Rows: 5,869
+  Columns Added: 24
+
+================================================================================
+
+PIPELINE STAGES COMPLETED:
+  1. Stage 1: Data Loaded Successfully
+  2. Stage 2: Quality Assessment Complete
+  3. Stage 3: Price Cleaning Complete
+  4. Stage 4: Text & SEO Generation Complete
+  5. Stage 5: Business Intelligence Complete
+  6. Stage 6: Validation Complete - Score: 70.0/100
+
+================================================================================
+
+DATA QUALITY METRICS:
+  Overall Quality Score: 70.0/100
+  Pipeline Status: NEEDS REVIEW ⚠️
+  SEO Coverage: 0% → 100% (+5869 titles)
+  Products with Issues: 4,008
+  High-Value Products: 0
+  Quick Win Opportunities: 1,030
+
+================================================================================
+
+RECOMMENDATIONS:
+  ⚠️  Review validation failures before production deployment.
+  ⚠️  Address high-priority issues for optimal results.
+
+================================================================================
