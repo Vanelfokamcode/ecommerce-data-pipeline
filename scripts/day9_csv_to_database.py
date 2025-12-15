@@ -18,7 +18,7 @@ DB_CONFIG = {
     'port': 5432,
     'database': 'shopify_db',
     'user': 'postgres',
-    'password': '2003'
+    'password': '123'
 }
 
 CSV_PATH = '../data/shopify_master_output.csv'
